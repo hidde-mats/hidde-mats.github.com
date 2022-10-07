@@ -107,3 +107,15 @@ body {
 .links > a:nth-of-type(9):hover ~ .line { --index: 9; }
 .links > a:nth-of-type(10):hover ~ .line { --index: 10; }
 .links > a:last-of-type:hover ~ .line { --index: var(--items); }
+
+.title {
+	position: relative;
+	transform: translateY(50px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 69px;
+	width: 100%;
+	font-size: 1.5vw;
+	color: #9ab;
+}
