@@ -13,6 +13,7 @@ body {
 	font-size: 62.5%;
 	padding: 0 20px;
 	box-sizing: border-box;
+	text-align: center;
 }
 
 #footer {
@@ -44,7 +45,7 @@ body {
 	padding: 0 .5em;
 }
 
-/* Appearance */
+/* Navbar */
 .links {
 	background-color: #123;
 	background-image: linear-gradient(to bottom, #0003, transparent);
@@ -70,7 +71,6 @@ body {
 	pointer-events: none;
 }
 
-/* The Magic */
 #header {
 	position: fixed;
 	top: 0;
@@ -108,17 +108,44 @@ body {
 .links > a:nth-of-type(10):hover ~ .line { --index: 10; }
 .links > a:last-of-type:hover ~ .line { --index: var(--items); }
 
-.kop {
+.titel {
 	position: relative;
-	transform: translateY(75px);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 69px;
 	width: 100%;
+	font-size: 2vw;
+	color: #9ab;
+	transform: translateY(75px);
+} 
+
+.kop {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	width: 100%;
 	font-size: 1.5vw;
 	color: #9ab;
-} 
+	transform: translateY(180px);
+}
+
+.tekst, ul {
+	position: relative;
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+	height: auto;
+	width: 100%;
+	font-size: 1.2vw;
+	color: #9ab;
+	transform: translateY(205px);
+}
+
+
+/* sidebar */
   .sidebar {
 	height: 23%;
 	transform: translateY(50px);
