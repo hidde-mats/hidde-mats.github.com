@@ -46,6 +46,10 @@ body {
 }
 
 /* Navbar */
+header {
+	z-index: 1000;
+}
+
 .links {
 	background-color: #123;
 	background-image: linear-gradient(to bottom, #0003, transparent);
@@ -129,7 +133,7 @@ body {
 	width: 100%;
 	font-size: 1.5vw;
 	color: #9ab;
-	transform: translateY(180px);
+	transform: translateY(125px);
 }
 
 .tekst, ul {
@@ -141,7 +145,7 @@ body {
 	width: 100%;
 	font-size: 1.2vw;
 	color: #9ab;
-	transform: translateY(205px);
+	transform: translateY(150px);
 }
 
 
@@ -151,7 +155,7 @@ body {
 	transform: translateY(50px);
 	width: 85px;
 	position: fixed;
-	z-index: 1;
+	z-index: 1000;
 	top: 0;
 	right: 0;
 	background-color: transparent;
