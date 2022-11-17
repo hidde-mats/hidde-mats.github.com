@@ -7,7 +7,6 @@ html, body { min-height: 100%; }
 
 body {
 	background-color: #345;
-	background-image: linear-gradient(to bottom, #0009, transparent);
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-size: 62.5%;
@@ -18,7 +17,6 @@ body {
 
 #footer {
 	background-color: #246c;
-	background-image: linear-gradient(to bottom, transparent, #0009);
 	border-top: 1px solid #fff3;
 	box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
 	overflow: hidden;
@@ -28,6 +26,7 @@ body {
 	right: 0;
 	bottom: 0;
 	z-index: 9001;
+	height: auto;
 }
 #footer a {
 	color: #85c6f6;
@@ -146,7 +145,7 @@ header {
 	font-size: 1.2vw;
 	color: #9ab;
 	transform: translateY(150px);
-	margin-bottom: 65px;
+	margin-bottom: 100px;
 }
 
 
