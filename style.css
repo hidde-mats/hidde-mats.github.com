@@ -6,7 +6,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
 html, body { min-height: 100%; }
 
 body {
-	background-color: #345;
+	background-color: #123;
+	background-image: (to bottom, #0003, transparent);
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-size: 62.5%;
@@ -118,9 +119,9 @@ header {
 	justify-content: center;
 	height: 69px;
 	width: 100%;
-	font-size: 2vw;
+	font-size: 4vw;
 	color: #9ab;
-	transform: translateY(75px);
+	transform: translateY(40vh);
 } 
 
 .kop {
@@ -148,10 +149,14 @@ header {
 	margin-bottom: 100px;
 }
 
+.pagina {
+	height: 100vh;
+}
+
 
 /* sidebar */
   .sidebar {
-	height: 23%;
+	height: 28%;
 	transform: translateY(50px);
 	width: 85px;
 	position: fixed;
