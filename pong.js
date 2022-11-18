@@ -23,7 +23,7 @@ localStorage.setItem(storeScore,"null");
     highScore=localStorage.getItem(storeScore);
     whichBar=localStorage.getItem(storeName);
     if(whichBar==="null" || highScore==="null"){
-        alert("Hello.. This is your first game");
+        alert("Wow! Je hebt onze easter-egg gevonden! ENTER=STARTEN PIJLTJES=BEWEGEN");
         highScore=0;
         whichBar=thisBar1;
     }
